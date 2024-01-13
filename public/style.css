@@ -1,0 +1,37 @@
+img{
+    height: 30vh;
+    backdrop-filter: blur(20px);
+}
+.products{
+    display: inline-block;
+    margin-right: 130px;
+}
+h1,h3{
+    text-align: center;
+}
+#btn{
+    height: 10vh;
+    width: 13vw;
+    border-radius: 2%;
+    border: 1px solid #1e1c1c ;
+    background-color: #7ddefc;
+}
+
+#btn:hover{
+    background-color: #e7f9ff;
+    box-shadow: 5px 5px 10px #c8c6c6;
+}
+
+.btn1{
+    height: 10vh;
+    width: 13vw;
+    border-radius: 2%;
+    border: 1px solid #f5f5f5 ;
+    background-color: #f5f5f5;
+    margin: auto;
+    display: block;
+}
+.btn1:hover{
+    background-color: #fbfeff;
+    box-shadow: 5px 5px 10px #c8c6c6;
+}
