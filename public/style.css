@@ -61,3 +61,7 @@ select{
     margin: 7px auto;
     font-family: "Montserrat", sans-serif;
 }
+
+#qt{
+    border: 0;
+}
