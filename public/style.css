@@ -15,6 +15,7 @@ h1,h3{
     border-radius: 2%;
     border: 1px solid #1e1c1c ;
     background-color: #7ddefc;
+    margin-top:10px ;
 }
 
 #btn:hover{
@@ -35,4 +36,28 @@ h1,h3{
 .btn1:hover{
     background-color: #fbfeff;
     box-shadow: 5px 5px 10px #c8c6c6;
+}
+
+.btn3{
+    height: 10vh;
+    width: 13vw;
+    border-radius: 2%;
+    border: 1px solid #f79b9b;
+    background-color: #f79b9b;
+    margin: auto;
+    display: block;
+    margin-bottom: 1vh;
+    color: white;
+}
+.btn3:hover{
+    background-color: #fd4264;
+    box-shadow: 5px 5px 10px #c8c6c6;
+    color: white;
+}
+
+select{
+    display: block;
+    width: 13vw;
+    margin: 7px auto;
+    font-family: "Montserrat", sans-serif;
 }
