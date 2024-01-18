@@ -1,22 +1,29 @@
 import React from 'react'
-import data from '../Data'
 
 
-export default function Product({name,price,url,id,setArr}) {
+export default function Product({name,price,url,id,setArr,idx,dt}) {
   
   const handleClick= (e) =>{
     // console.log(this)
     setArr((previousState)=>{
-      let newArr=data.filter(({id:idno})=>{
+      let newArr=previousState.find(({id:idno})=>{
         return idno === id
       })
-      return [...previousState,...newArr]
+      if(newArr){
+        // console.log(newArr);
+        let otherItems=previousState.filter(({id:idno})=>{
+          return idno!==id
+        })
+      return [...otherItems,{...newArr,quantity:++newArr.quantity}]
+      }else{
+      return [...previousState,{...dt[idx],quantity:1}]
+       }
     })
   }
   return (
     <div className='products'>
         <h3>{name}</h3>
-        <h4>{price}</h4>
+        <h4>${price}</h4>
         <img src={url} alt={name} /> <br />
         <button id="btn" onClick={handleClick}>Add to cart</button> 
     </div>
