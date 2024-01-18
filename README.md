@@ -11,7 +11,7 @@ This is a simple web app that will allow its users to add items to their cart,re
 - Change into the the folder and run npm install.
 - After the install finishes, run npm start which will compile the project and automatically open it on your default browser.
 - Open the project using your preferred code editor and inspect the code.
--  Use the link to view the project - https://eloquent-belekoy-e16995.netlify.app/
+-  Use the link to view the project - https://ab9laziz.github.io/simple-cart
 
 
 # Known bugs
